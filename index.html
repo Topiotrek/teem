@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Piotr Matwiejczuk">
+
+  <title>TeeM - legal service</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Awesome icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <script>
+	window.onbeforeunload = function () {
+		window.scrollTo(0, 0);
+	}	
+	function toggler(divId) {
+		$("#" + 'myContent').toggle() ;
+		$("#" + 'myContent1').toggle() ;
+		document.getElementById("flag1").disabled = true;
+		document.getElementById("flag2").disabled = false;
+	}
+	function toggler1(divId) {
+		$("#" + 'myContent').toggle() ;
+		$("#" + 'myContent1').toggle() ;
+		document.getElementById("flag1").disabled = false;
+		document.getElementById("flag2").disabled = true;
+	}
+  </script>
+  <script>
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	  if (document.body.scrollTop > (document.documentElement.scrollHeight/2) || document.documentElement.scrollTop > (document.documentElement.scrollHeight/2)) {
+		document.getElementById("goTop").style.display = "block";
+	  } else {
+		document.getElementById("goTop").style.display = "none";
+	  }
+	}
+  </script>
+  
+</head>
+
+<body id="page-top">
+
+		<div class="navs  navbar-collapse minimini">
+		
+			<div class="logo">
+				<a class="navbar-brand mr-sm-2 js-scroll-trigger" href="#page-top" >
+					<img class="img-fluid img-profile rounded-circle" src="pic/logo2.png" alt="">
+				</a>
+			</div>
+			
+			<div >
+				<button class="btn btn-dangerN btn-lg btn-block p3" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+					<b>Menu</b>
+				</button>
+			</div>
+			
+			<div class="collapse center " id="collapseExample">
+				<ul class="navbar-nav" id="list-example">
+					<li class="nav-item">
+					  <a class="nav-link p2 js-scroll-trigger" href="#page-top">Home</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link p2 js-scroll-trigger" href="#list-item-2">Usługi</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link p2 js-scroll-trigger" href="#list-item-3">Cennik</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link p2 js-scroll-trigger" href="#list-item-4">Kontakt</a>
+					</li>
+				</ul>
+				<!--
+				<div id="list-example" class="list-group list-group-flush" style="text-align: center;">
+					<a class="list-group-item btn-outline-danger active" href="#list-item-1">Home</a>
+					<a class="list-group-item btn-outline-danger " href="#list-item-2">Usługi</a>
+					<a class="list-group-item btn-outline-danger " href="#list-item-3">Cennik</a>
+					<a class="list-group-item btn-outline-danger " href="#list-item-4">Kontakt</a>
+				</div>
+				-->
+			</div>
+			<div class="center" style="width: 17rem; position: fixed; height: 100%; padding-top:30px">
+				<i class="fab fa-facebook" style="font-size:40px;color:white;"></i> 
+				<i class="fab fa-google-plus-square" style="font-size:40px;color:white"></i> 
+				<i class="fab fa-linkedin" style="font-size:40px;color:white"></i> 
+				<i class="fab fa-twitter-square" style="font-size:40px;color:white"></i>	 
+			</div>
+			<div class="center" style="width: 17rem; position: absolute; bottom: 0; color: white;" >
+				<button type="button" id="flag1" class="btn rounded-circle " onclick="toggler('myContent');" disabled>
+					<img class="rounded-circle " style="width:20px; height:20px" src="pic/pl.png" />	
+				</button>
+				<button type="button" id="flag2" class="btn rounded-circle " onclick="toggler1('myContent1');">
+					<img class="rounded-circle " style="width:20px; height:20px" src="pic/en.png" />	
+				</button>
+				<br>
+				<br>
+				TeeM© Legal Services
+			</div>
+		</div>  
+		
+		<p>
+			<br>
+			<h3 style="text-align:center;color:#871010;"><b>Najlepsza na rynku firma oferująca usługi prawne. Pomożemy ci wyssać jak najwięcej kasy z państwowego cycka.</b></h3>
+			<br>
+			<br>
+			<p id="list-item-1"></p>
+			<br>
+			<br>
+			<h3 style="color:#871010;">Home</h3>
+				<br>
+				<p>
+				Lorem Cipsum dolor sit amet, consectetur adipiscing elit. Integer at rutrum libero, ut tincidunt metus. Nam dui sem, iaculis vitae interdum eget, laoreet vitae ipsum. In eget tincidunt urna. Aliquam accumsan, tortor mollis fringilla tempor, urna augue eleifend sem, sed tempor erat est non magna. Maecenas rhoncus erat ullamcorper, elementum dui sagittis, luctus nulla. Sed vel nibh vel felis consequat placerat id in arcu. Donec sit amet velit in ligula dictum imperdiet a nec nulla. Nam eget eros sit amet quam imperdiet vehicula. Proin faucibus, neque at convallis placerat, nisl ante feugiat quam, ac vehicula mauris justo eu tortor. Integer mollis efficitur cursus. Integer sed volutpat augue, non viverra felis. Aenean sodales quis urna vitae sodales. Pellentesque blandit, dui eu sagittis ornare, risus leo consequat purus, ac elementum orci lacus ut ex. Proin velit sapien, rutrum et metus in, porta laoreet urna.
+				In pellentesque, urna non vulputate bibendum, lacus odio ornare lacus, eu vehicula diam sem ut ipsum. Nullam vitae egestas velit. Vivamus quis arcu ut sem fermentum vulputate vel vel dui. Quisque semper nibh sit amet tortor suscipit, ac cursus lacus laoreet. Morbi ante mauris, tristique sed pharetra in, ullamcorper at enim. Nulla ac magna eros. Phasellus vel rhoncus nisi. Pellentesque ut mi congue, commodo dui et, lacinia lectus. Ut lacinia cursus libero ut porta. Nunc id condimentum est. 
+				</p>
+				<p>
+				Fusce sed massa molestie, suscipit lectus nec, consectetur ipsum.
+				Sed at faucibus nibh, sit amet fringilla elit. Proin hendrerit maximus elit, at porta sem gravida ut. Ut cursus at magna a convallis.
+				</p>
+				<p id="myContent" class='hidden'>
+				Aenean id dolor aliquam, placerat leo nec, malesuada magna. Nulla pharetra nisl lorem, ut rhoncus elit pretium quis. Nam tincidunt euismod ligula sit amet tincidunt. Nunc mollis bibendum lectus eget molestie. Curabitur id mollis eros, vel dictum nibh. Cras molestie consectetur porttitor. Pellentesque interdum iaculis nibh laoreet tempor. Fusce a dapibus est, in finibus nisl.
+				Proin interdum est non nisl sodales, sed faucibus leo bibendum. Vestibulum sit amet porta arcu. Etiam id ultrices ante, id rhoncus arcu. Phasellus ac orci vitae lorem suscipit tempor sagittis dapibus magna. Integer posuere odio ac velit ornare finibus quis sit amet orci. Morbi at accumsan enim. Nam ac erat quis tortor dignissim imperdiet. Duis vestibulum, mauris eget lobortis lacinia, tortor odio ullamcorper felis, sed pulvinar magna lorem id nisl. Ut non sodales ante.
+				Quisque at dui in ipsum vestibulum pellentesque in vel nunc. Etiam nec augue sed odio tincidunt pharetra. Sed orci ipsum, lobortis vitae justo id, iaculis aliquet urna. Etiam sed nulla id nisl rhoncus molestie a sit amet quam. Vivamus tempor est justo, ac volutpat nulla facilisis non. Mauris leo felis, molestie sit amet interdum a, pretium ut enim. Curabitur aliquam vel tortor a aliquam. In tincidunt felis sed fermentum consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus ultricies, purus in accumsan feugiat, nulla ipsum elementum odio, quis placerat nunc ex ut neque.
+				
+				</p>
+
+				<p id="myContent1" class='hidden1'>
+				!!!!!!!!!Fuck ju ju mada faka,*************************************
+				</p>
+				<br>
+				<br>
+				<hr class="style14" id="list-item-2">
+				<br>
+				<br>
+			<h3 style="color:#871010;">Usługi</h3>
+				<br>
+				<p>
+				Fusce sed massa molestie, suscipit lectus nec, consectetur ipsum.
+				Sed at faucibus nibh, sit amet fringilla elit. Proin hendrerit maximus elit, at porta sem gravida ut. Ut cursus at magna a convallis.
+				<br>
+				Fusce sed massa molestie, suscipit lectus nec, consectetur ipsum.
+				Sed at faucibus nibh, sit amet fringilla elit. Proin hendrerit maximus elit, at porta sem gravida ut. Ut cursus at magna a convallis.
+				</p>
+				<div id="accordion"><!-- Rozwijane usługi -->
+				  <div class="cardN">
+					<div class="card-headerN" id="headingOne">
+					  <h5 class="mb-0">
+						<button class="btn btn-link collapsed redFont" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+						  Obługa spółek i działalności
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+					  <div class="card-body fontN">
+						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					  </div>
+					</div>
+				  </div>
+				  <div class="cardN">
+					<div class="card-headerN" id="headingTwo">
+					  <h5 class="mb-0">
+						<button class="btn btn-link collapsed redFont" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						  Pisanie umów
+						</button>
+					  </h5>
+					</div>					
+					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+					  <div class="card-body fontN">
+						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					  </div>
+					</div>
+				  </div>
+				  <div class="cardN">
+					<div class="card-headerN" id="headingThree">
+					  <h5 class="mb-0">
+						<button class="btn btn-link collapsed redFont" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						  Protokoły zgromadzeń, uchwały
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+					  <div class="card-body fontN">
+						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					  </div>
+					</div>
+				  </div>
+				  <div class="cardN">
+					<div class="card-headerN" id="headingFour">
+					  <h5 class="mb-0">
+						<button class="btn btn-link collapsed redFont" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+						  Zmiany w KRS
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+					  <div class="card-body fontN">
+						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					  </div>
+					</div>
+				  </div>
+				  <div class="cardN">
+					<div class="card-headerN" id="headingFive">
+					  <h5 class="mb-0">
+						<button class="btn btn-link collapsed redFont" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+						  Likwidacja, rejestracja spółek
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+					  <div class="card-body fontN">
+						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<p>
+				Fusce sed massa molestie, suscipit lectus nec, consectetur ipsum.
+				Sed at faucibus nibh, sit amet fringilla elit. Proin hendrerit maximus elit, at porta sem gravida ut. Ut cursus at magna a convallis.
+				<br>
+				Fusce sed massa molestie, suscipit lectus nec, consectetur ipsum.
+				Sed at faucibus nibh, sit amet fringilla elit. Proin hendrerit maximus elit, at porta sem gravida ut. Ut cursus at magna a convallis.
+				</p>
+				<br>				
+				<br>
+				<hr class="style14" id="list-item-3">
+				<br>
+				<br>
+			<h3 style="color:#871010;">Cennik</h3>
+				<br>
+				<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at rutrum libero, ut tincidunt metus. Nam dui sem, iaculis vitae interdum eget, laoreet vitae ipsum. In eget tincidunt urna. Aliquam accumsan, tortor mollis fringilla tempor, urna augue eleifend sem, sed tempor erat est non magna. Maecenas rhoncus erat ullamcorper, elementum dui sagittis, luctus nulla. Sed vel nibh vel felis consequat placerat id in arcu. Donec sit amet velit in ligula dictum imperdiet a nec nulla. Nam eget eros sit amet quam imperdiet vehicula. Proin faucibus, neque at convallis placerat, nisl ante feugiat quam, ac vehicula mauris justo eu tortor. Integer mollis efficitur cursus. Integer sed volutpat augue, non viverra felis. Aenean sodales quis urna vitae sodales. Pellentesque blandit, dui eu sagittis ornare, risus leo consequat purus, ac elementum orci lacus ut ex. Proin velit sapien, rutrum et metus in, porta laoreet urna.
+				In pellentesque, urna non vulputate bibendum, lacus odio ornare lacus, eu vehicula diam sem ut ipsum. Nullam vitae egestas velit. Vivamus quis arcu ut sem fermentum vulputate vel vel dui. Quisque semper nibh sit amet tortor suscipit, ac cursus lacus laoreet. Morbi ante mauris, tristique sed pharetra in, ullamcorper at enim. Nulla ac magna eros. Phasellus vel rhoncus nisi. Pellentesque ut mi congue, commodo dui et, lacinia lectus. Ut lacinia cursus libero ut porta. Nunc id condimentum est. 
+				</p>
+				<p>
+				Fusce sed massa molestie, suscipit lectus nec, consectetur ipsum.
+				Sed at faucibus nibh, sit amet fringilla elit. Proin hendrerit maximus elit, at porta sem gravida ut. Ut cursus at magna a convallis.
+				</p>
+				<p>
+				Aenean id dolor aliquam, placerat leo nec, malesuada magna. Nulla pharetra nisl lorem, ut rhoncus elit pretium quis. Nam tincidunt euismod ligula sit amet tincidunt. Nunc mollis bibendum lectus eget molestie. Curabitur id mollis eros, vel dictum nibh. Cras molestie consectetur porttitor. Pellentesque interdum iaculis nibh laoreet tempor. Fusce a dapibus est, in finibus nisl.
+				Proin interdum est non nisl sodales, sed faucibus leo bibendum. Vestibulum sit amet porta arcu. Etiam id ultrices ante, id rhoncus arcu. Phasellus ac orci vitae lorem suscipit tempor sagittis dapibus magna. Integer posuere odio ac velit ornare finibus quis sit amet orci. Morbi at accumsan enim. Nam ac erat quis tortor dignissim imperdiet. Duis vestibulum, mauris eget lobortis lacinia, tortor odio ullamcorper felis, sed pulvinar magna lorem id nisl. Ut non sodales ante.
+				Quisque at dui in ipsum vestibulum pellentesque in vel nunc. Etiam nec augue sed odio tincidunt pharetra. Sed orci ipsum, lobortis vitae justo id, iaculis aliquet urna. Etiam sed nulla id nisl rhoncus molestie a sit amet quam. Vivamus tempor est justo, ac volutpat nulla facilisis non. Mauris leo felis, molestie sit amet interdum a, pretium ut enim. Curabitur aliquam vel tortor a aliquam. In tincidunt felis sed fermentum consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus ultricies, purus in accumsan feugiat, nulla ipsum elementum odio, quis placerat nunc ex ut neque.				
+				</p>
+				<br>
+				<br>				
+				<hr class="style14" id="list-item-4">
+				<br>
+				<br>
+			<h3 style="color:#871010;">Kontakt</h3>
+				<br>
+				<br>				
+				<h4 style="color: #871010;">TeeM Tomasz Matwiejczuk Sp. z o.o</h4>
+				<br>
+				<br>
+				<!--
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3" id="form_container">
+						<h2>Contact Us</h2>
+						<p>
+						   Please send your message below. We will get back to you at the earliest!
+						</p>
+						<form role="form" method="post" id="reused_form">
+
+							<div class="row">
+								<div class="col-sm-12 form-group">
+									<label for="message">
+										Message:</label>
+									<textarea class="form-control" type="textarea" id="message" name="message" maxlength="6000" rows="7"></textarea>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 form-group">
+									<label for="name">
+										Your Name:</label>
+									<input type="text" class="form-control" id="name" name="name" required>
+								</div>
+								<div class="col-sm-6 form-group">
+									<label for="email">
+										Email:</label>
+									<input type="email" class="form-control" id="email" name="email" required>
+								</div>
+							</div>
+
+
+							<div class="row">
+								<div class="col-sm-12 form-group">
+									<button type="submit" class="btn btn-lg btn-default pull-right" >Send →</button>
+								</div>
+							</div>
+
+						</form>
+						<div id="success_message" style="width:100%; height:100%; display:none; ">
+							<h3>Posted your message successfully!</h3>
+						</div>
+						<div id="error_message"
+								style="width:100%; height:100%; display:none; ">
+									<h3>Error</h3>
+									Sorry there was an error sending your form.
+
+						</div>
+					</div>
+				</div>
+				-->
+				<div class="kontakt">
+					<div class="row roundedN" style="position:absolute">
+						<div>
+							<div class="mapouter">
+								<div class="gmap_canvas">
+									<iframe width="530" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=braci%20za%C5%82uskich%203&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>									
+								</div>
+									<style>
+										.mapouter{
+											position:relative;
+											text-align:right;
+											height:350px;
+											width:530px;
+										}
+										.gmap_canvas {
+											overflow:hidden;
+											background:none!important;
+											height:350px;
+											width:530px;
+										}
+									</style>
+							</div>
+						</div>
+						<div class="rounded-rightN" style="padding-left: 30px; background-color:#871010; width:350px; height:350px ">
+							<div style="margin-top: 40px;">
+								<h4 style="line-height:50%;color: white;"><i class="fa fa-home fa-1x" style="line-height:6%;color:white;letter-spacing: 0.5mm;"></i> Adres:</h4>               
+								<p style="margin-top:6%;line-height:35%; color:white;">Braci Załuskich 3</p>
+								<br />
+								<h4 style="line-height:50%;color: white;"><i class="fa fa-envelope fa-1x" style="line-height:6%;color:white;letter-spacing: 0.5mm;"></i> Adres email:</h4>
+								<p style="margin-top:6%;line-height:35%"><a href="mailto:kontakt.tmlegal@gmail.com" style="color:white">kontakt.tmlegal@gmail.com</a></p>					
+								<br />
+								<h4 style="line-height:50%;color: white;"><i class="fa fa-user fa-1x" style="line-height:6%;color:white;letter-spacing: 0.5mm;"></i> Telefon:</h4>
+								<p style="margin-top:6%;line-height:35%; color:white;">111-222-333</p>
+								<br />
+								<p style="margin-top:3%;line-height:20%"><a href="https://m.me/teemlegalservice" target="_blank" style="color:white;font-size:12px"><i class='fab fa-facebook-messenger' style='font-size:15px;color:white'></i> Wyślij wiadomość przez Facebook</a></p>
+								<p style="margin-top:3%;line-height:20%"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=kontakt.tmlegal@gmail.com" target="_blank" style="color:white;font-size:12px"><i class='fab fa-google' style='font-size:15px;color:white'></i> Wyslij wiadomość przez swoje konto Gmail</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Google Maps-->
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>	
+			<!--	
+			<nav class="navbar sticky-bottom roundedN" style="color: margin-left: 15px; margin-right:10px">
+			  <a class="navbar-brand mr-sm-2"></a>
+			  <a class="navbar-brand mr-sm-2 js-scroll-trigger" href="#page-top" ><i class="fas fa-arrow-alt-circle-up my-2 my-sm-0" style="font-size:35px;color:#871010"></i></a>
+			</nav>
+			-->
+			<a class="navbar-brand mr-sm-2 js-scroll-trigger" id="goTop" href="#page-top" ><i class="fas fa-arrow-alt-circle-up my-2 my-sm-0" style="font-size:35px;color:#871010"></i></a>
+			
+		</p>		
+		<!-- Bootstrap core JavaScript -->
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<!-- Plugin JavaScript -->
+		<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+		<!-- Custom scripts for this template -->
+		<script src="js/resume.min.js"></script>
+</body>
+
+</html>

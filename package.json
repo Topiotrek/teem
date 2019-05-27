@@ -1,0 +1,39 @@
+{
+    "title": "TeeM",
+    "name": "Teem-webpage",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "gulp watch"
+    },
+    "description": "A simple webpage for Teem company",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://www.google.pl",
+    "bugs": {
+        "email": "czuk22@gmail.com"
+    },
+    "license": "MIT",
+    "author": "Piotr Matwiejczuk",
+    "contributors": [
+        
+    ],
+    "repository": {
+        
+    },
+    "dependencies": {
+        "bootstrap": "4.3.1",
+        "jquery": "3.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.5",
+        "del": "^4.1.1",
+        "gulp": "4.0.2",
+        "merge-stream": "^1.0.1"
+    }
+}

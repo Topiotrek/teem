@@ -1,0 +1,259 @@
+/*!
+ * Piotr Matwiejczuk - TeeM webpage 
+ *
+ */
+body {
+	margin-left: 380px;	
+	padding-right:9%;
+	background-color: #fffcfc;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	line-height: 1.5;
+	font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	
+}
+h1,
+h2,
+h3,
+h5,
+h6 {
+	font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 6rem;
+	line-height: 5.5rem;
+}
+h2 {
+	font-size: 3.5rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+h4 {
+	font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+hr.style14 { 
+	border: 0; 
+	height: 1px; 
+	background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+#div1 {
+    float: left;
+}
+
+#div2 {
+    float: left;
+}
+
+p {
+	
+	font-size: 1.05rem;
+	font-weight: 500;
+	color: #333333;
+}
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+.p2{
+	font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	font-size: 1.25rem;
+}
+.p3 {
+	font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	font-size: 1.40rem;
+	letter-spacing: 0.5mm;
+}
+
+.fontN {
+	color: #333333;
+	font-size: 16px;
+}
+
+.logo{
+	position: sticky;
+	position: -webkit-sticky;
+	height: 200px;
+	color: white;
+	background-color:#871010;
+}
+
+
+.img-profile {
+	position: absolute;
+	margin: auto;
+	top: -20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	text-align: center;
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+
+.roundedN {
+	border-radius: 0.30rem !important;
+}
+
+.rounded-rightN {
+	border-top-right-radius: 0.50rem !important;
+	border-bottom-right-radius: 0.50rem !important;
+}
+
+.hidden {
+    display:block;
+}
+
+.hidden1 {
+    display:none;
+}
+
+.kontakt {
+	margin-left:15px;
+	width:990px;
+	position: relative;
+	margin-bottom: 20px;
+	height: 350px;
+}
+
+#goTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.navs {
+	padding: 0;
+	width: 17rem;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	height: 100%;
+	overflow: auto;
+	list-style-type: none;
+	background-color:#871010;
+}
+
+.navbar-nav, .nav-item, .nav-link {
+	font-weight: 600;
+	letter-spacing: 0.05rem;
+}
+
+a {
+	color:#b5b6b7;
+}
+
+a:hover, a:active {
+	color: white;
+}
+
+.nav-link:not(:disabled):not(.disabled):active, .nav-link:not(:disabled):not(.disabled).active,
+.show > .nav-link.dropdown-toggle {
+	color: white;
+
+}
+
+.btn-dangerN {
+  color: #fff;
+  background-color: #871010;
+  border-color: #871010;
+}
+
+.btn-dangerN:hover {
+  color: #fff;
+  background-color: #871010;
+  border-color: #bd2130;
+}
+
+.btn-dangerN:focus, .btn-danger.focus {
+  box-shadow: 0 0 0 0.001rem rgba(225, 83, 97, 0.5);
+}
+
+.minimini{
+	min-height: 500px;
+}
+
+.center {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+}
+
+.redFont {
+	color: #871010;
+	border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+	font-size: 1.35rem;
+	font-weight: 500;
+}
+
+.cardN {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fffcfc;
+	background-clip: border-box;
+	border-right: 0;
+	border-left: 0;
+	border-radius: 0;
+}
+
+.card-headerN {
+	padding: 0.75rem 1.25rem;
+	margin-bottom: 0;
+	border-right: 0;
+	border-left: 0;
+	border-radius: 0;
+}
+
+.mainBody {
+	margin-top: 100px;
+	margin-left:200px;
+	height: 600px;
+	overflow-y: scroll;
+	text-align: left;
+	position: relative;
+	padding-right:5%;
+	padding-left: 5%;	
+}
+
+.map-container-2{
+	overflow:hidden;
+	padding-bottom:30.25%;
+	position:relative;
+	height:0;
+}
+
+.map-container-2 iframe{
+	left:0;
+	top:0;
+	height:300px;
+	width:300px;
+	position:absolute;
+}
