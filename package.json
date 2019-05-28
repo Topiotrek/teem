@@ -1,7 +1,7 @@
 {
     "title": "TeeM",
     "name": "Teem-webpage",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "scripts": {
         "start": "gulp watch"
     },
@@ -24,7 +24,7 @@
         
     ],
     "repository": {
-        
+        "https://www.github.com/Topiotrek.teem"
     },
     "dependencies": {
         "bootstrap": "4.3.1",
